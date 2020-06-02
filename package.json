@@ -10,9 +10,7 @@
     "start:watch": "nodemon index.js"
   },
   "jest": {
-    "testEnvironment": "node",
-    "globalSetup": "alchemy-jest-slack-reporter/setup.js",
-    "globalTeardown": "alchemy-jest-slack-reporter/teardown.js"
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
@@ -24,5 +22,7 @@
     "jest": "^26.0.1",
     "nodemon": "^2.0.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
